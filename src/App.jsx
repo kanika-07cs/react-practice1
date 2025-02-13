@@ -7,10 +7,10 @@ import { Route, Routes} from "react-router-dom"
 import Navlinks from "./components/navlinks/Navlinks"
 import Addmarks from "./pages/Addmarks"
 function App() {
-  const [state, setState]=useState("react-practice")
+ /*  const [state, setState]=useState("react-practice")
   const handleButtonClick = () => {
     setState("button clicked")
-  }
+  } */
   return (
 
     <div className="App" style={{height:"100vh",width:"100vw"}}>

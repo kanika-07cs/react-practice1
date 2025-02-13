@@ -1,0 +1,28 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.marks{
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(34, 28, 28, 0.8);
+    border-radius: 25px;
+    width: 25%;
+}
+.submit{
+    background-color: rgb(8, 146, 20);
+    border-radius: 20px;
+    color: rgb(244, 244, 240);
+    margin: 5px;
+}
+.delete{
+    border: 2px solid black;
+    background-color: rgb(224, 20, 20);
+    border-radius: 20px;
+    color: rgb(244, 244, 240);
+}
+.edit{
+    border: 2px solid black;
+    background-color: rgb(26, 243, 102);
+    border-radius: 20px;
+    color: rgb(244, 244, 240);
+}
