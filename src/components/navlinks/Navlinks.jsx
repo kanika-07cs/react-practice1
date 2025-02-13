@@ -15,6 +15,7 @@ export default function Navlinks() {
             <li onClick={()=>navigate('/')}>HOME</li>
             <li onClick={()=>navigate('/About')}>ABOUT</li>
             <li onClick={()=>navigate('/Contact')}>CONTACT</li>
+            <li onClick={()=>navigate('/Addmarks')}>ADD MARKS</li>
         </ul>
             
     </div>
