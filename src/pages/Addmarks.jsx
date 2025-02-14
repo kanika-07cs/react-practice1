@@ -12,7 +12,7 @@ export default function Addmarks() {
     
     const handleSubmit = async() => {
             try {
-                const res = await fetch(editId ? `http://localhost:7000/update-mark/${editId}` : "http://localhost:7000/add-data", {
+                const res = await fetch(editId ? `http://localhost:5000/update-mark/${editId}` : "http://localhost:5000/add-data", {
                     method: editId ? "PUT" : "POST",
                     headers: {
                         "Content-Type": "application/json"
@@ -41,7 +41,7 @@ export default function Addmarks() {
 
     const fetchMarks = async() => {
         try {
-            const res = await fetch("http://localhost:7000/fetch-marks",{
+            const res = await fetch("http://localhost:5000/fetch-marks",{
                 method: "GET",
                 headers:{
                     "Content-Type":"application/json"
@@ -65,7 +65,7 @@ export default function Addmarks() {
     const handleDelete=async(Id)=>{
         console.log("Delete ID",Id);
         try {
-            const res = await fetch(`http://localhost:7000/delete-mark/${Id}`, {
+            const res = await fetch(`http://localhost:5000/delete-mark/${Id}`, {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",
